@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../TodoApp/.idea/TodoApp.iml" filepath="$PROJECT_DIR$/../TodoApp/.idea/TodoApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dartboard.iml" filepath="$PROJECT_DIR$/.idea/dartboard.iml" />
+      <module fileurl="file://$USER_HOME$/dartboard/dartboard-front/.idea/dartboard-front.iml" filepath="$USER_HOME$/dartboard/dartboard-front/.idea/dartboard-front.iml" />
+    </modules>
+  </component>
+</project>
