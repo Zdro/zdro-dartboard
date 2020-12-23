@@ -1,28 +1,44 @@
 {
-  "name": "view",
-  "version": "0.1.0",
+  "name": "firebase-auth-react-redux",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.6.0",
+    "@egjs/react-flicking": "^3.5.1",
+    "@react-hook/window-size": "^3.0.7",
+    "bootstrap": "^4.5.3",
+    "firebase": "^8.2.1",
+    "history": "^4.10.1",
+    "pure-react-carousel": "^1.27.6",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
+    "react-bootstrap": "^1.4.0",
+    "react-bootstrap-icons": "^1.2.2",
+    "react-dom": "^16.8.6",
+    "react-firebaseui": "^4.1.0",
+    "react-google-button": "^0.7.1",
+    "react-hook-screen-orientation": "^1.0.1",
+    "react-redux": "^7.2.2",
+    "react-redux-firebase": "^3.8.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.1",
+    "react-slick": "^0.27.13",
+    "redux": "^4.0.5",
+    "redux-auth-wrapper": "^3.0.0",
+    "redux-firestore": "^0.14.0",
+    "redux-thunk": "^2.3.0",
+    "swiper": "^6.4.5"
   },
   "scripts": {
     "start": "react-scripts start",
+    "prebuild": "rm -rf ../public/*",
     "build": "react-scripts build",
-    "postbuild" : "rm -rf ../public/* && cp -R build/* ../public",
+    "postbuild": "mv build/* ../public",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "cd ..; firebase deploy"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [

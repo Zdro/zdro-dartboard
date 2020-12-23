@@ -67,3 +67,6 @@ node_modules/
 
 dartboard-zdro-firebase-adminsdk.json
 .idea/workspace.xml
+
+public
+view/build

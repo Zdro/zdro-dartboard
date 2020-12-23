@@ -2,11 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b53bbe22-657e-4be4-867d-7df0a476ab2d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../TodoApp/.firebaserc" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoApp/.firebaserc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoApp/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoApp/firebase.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoApp/functions/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoApp/functions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoApp/functions/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TodoApp/view/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../TodoApp/view/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dartboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dartboard.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/APIs/todos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/APIs/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/util/admin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/util/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/util/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/util/validators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/css/main.ab7136cd.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/css/main.ab7136cd.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/2.cb6f507c.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/2.cb6f507c.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/2.cb6f507c.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/3.c625b0de.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/3.c625b0de.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/main.378a525c.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/main.378a525c.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/runtime-main.a8deae76.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/js/runtime-main.a8deae76.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/static/media/logo.6ce24c58.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +43,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../TodoApp" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedIndex" value="1" />
@@ -46,6 +75,31 @@
       <recent name="$PROJECT_DIR$/functions" />
       <recent name="$PROJECT_DIR$/../TodoApp/functions/util" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/view/src/ui/components/Toolbar" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/view/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v12.20.0/bin/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/view/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v12.20.0/bin/node" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,6 +111,9 @@
       <updated>1608387097876</updated>
       <workItem from="1608387099302" duration="1010000" />
       <workItem from="1608395105105" duration="10184000" />
+      <workItem from="1608505001429" duration="27000" />
+      <workItem from="1608505029807" duration="32128000" />
+      <workItem from="1608743734695" duration="20356000" />
     </task>
     <servers />
   </component>
@@ -73,5 +130,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

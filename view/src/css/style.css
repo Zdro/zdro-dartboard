@@ -1,0 +1,30 @@
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.scrolling-wrapper-flexbox.card {
+    display: inline-block;
+}
+
+.flex-even {
+    flex: 1;
+}
+
+
+* {
+    min-width: 0;
+    min-height: 0;
+}
+
+.slick-list, .slick-track, .slick-slide, .slick-slide>div {
+    height: 100%!important;
+}
+.slick-slide{
+    padding: 0.25rem;
+}
+
+.slick-dots{
+    bottom: -15px;
+}
